@@ -2,7 +2,7 @@ name: IGPSport Data Sync To Xingzhe
 
 on:
   schedule:
-    - cron: '0 22 * * *'
+    - cron: '0 9,13,17,21 * * *'
   watch:
     types: started
 
